@@ -1,0 +1,18 @@
+Protocol (bidirectional)
+
+Every message starts with {, then a letter indicating the message code, then payload, and close with }
+
+C: Command: Followed by a command and commanddata
+	- A: Activate input port. Follow with 1 byte of the port number, 1 byte of type
+	-- B: Button
+	-- R: Rotary Encoder
+	-- S: Slider
+	-- I: Inactive
+	- I: Request device info
+D: Data. Follow with 1 letter indication type. Then 1 byte of portnumber, and 1 byte of data. Data is port type dependent
+	-- B: Button
+	-- R: Rotary Encoder
+	-- S: Slider
+I: Device info: Follow with 1 byte of data size d, and d bytes of data
+M: Message: Just print, or ignore
+X: Error: Follow by 1 byte of messagesize, follow by the message
