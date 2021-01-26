@@ -1,0 +1,131 @@
+{
+    "name": "Small Platform Test interface",
+    "panels": [
+        {
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "size": {
+                "x": 108,
+                "y": 102,
+                "z": 8
+            },
+            "elements": [
+				{
+                    "id": "button_small_interface",
+                    "type": "button",
+                    "port": 5,
+                    "position": {
+                        "x": 18,
+                        "y": -1
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "color": "ffffff",
+                    "size": {
+                        "x": 9,
+                        "y": 9,
+                        "z": 12
+                    }
+                },
+				{
+                    "id": "button_medium_interface",
+                    "type": "button",
+                    "port": 6,
+                    "position": {
+                        "x": -18,
+                        "y": -1
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "color": "ffffff",
+                    "size": {
+                        "x": 13,
+                        "y": 13,
+                        "z": 12
+                    }
+                },
+				{
+                    "id": "button_round_interface",
+                    "type": "button",
+                    "port": 7,
+                    "position": {
+                        "x": 18,
+                        "y": -36
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "color": "ffffff",
+                    "size": {
+                        "x": 16,
+                        "y": 16,
+                        "z": 12
+                    }
+                },
+				
+				{
+                    "id": "button_large_interface",
+                    "type": "button",
+                    "port": 8,
+                    "position": {
+                        "x": -18,
+                        "y": -36
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "color": "ffffff",
+                    "size": {
+                        "x": 16,
+                        "y": 16,
+                        "z": 12
+                    }
+                },
+				{
+                    "id": "slider_large_interface",
+                    "type": "slider",
+                    "port": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 34
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "color": "ffffff",
+                    "size": {
+                        "x": 8,
+                        "y": 8,
+                        "z": 12
+                    }
+                }
+            ]
+        }
+    ]
+}

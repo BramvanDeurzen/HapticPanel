@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f1355b5a0fd78548b051a728d188e92, type: 3}
+  m_Name: Sample demo Interface
+  m_EditorClassIdentifier: 
+  mapping:
+  - demoID: button_small
+    interfaceID: button_small_interface
+  - demoID: button_medium
+    interfaceID: button_medium_interface
+  - demoID: slider
+    interfaceID: slider_large_interface
+  - demoID: button_round
+    interfaceID: button_round_interface
+  - demoID: button_large
+    interfaceID: button_large_interface

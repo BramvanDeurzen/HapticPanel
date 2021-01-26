@@ -1,0 +1,28 @@
+Requirements
+----------------
+- "Unity hardware bridge" project, as dll
+
+Notes
+----------------
+- All scales are in millimeters
+
+Glossary
+----------------
+- Device: The controlling hardware running the software (arduino). Can be started (accepts and sends messages) or stopped. Devices have a type:
+	- inputpasser: pass all input of an arduino input or output pin to messages and commands
+	- xyzmachine: xyz machine with commands to move the engine and input the position of the head, or other sensors
+- Client: Hardware receiving the data and giving commands (computer)
+- Hardware component: Basic part of hardware with dimensions and a zero position and orientation
+- Input: Hardware component delivering data to the client
+- Port: Identifier labeling the hardware components connected to the device. Every input has 1 port, and there can be multiple ports per device. 
+	For the inputpasser type, the port number corresponds with the physical pin on the arduino
+- ComPort: The port on the client. Every device has 1 port, and corresponds to the serial port number
+- Message: Anything moving between the client and device, in any direction
+- Button: Input component having binary status. Zero point is the surface of the button (barely touch in the middle is 0, 0, 0)
+- Listener: Part of the client software accepting and processing messages from the device
+- Interface: Describes a hardware and software interface. Is connected to a device. Collection of panels. Described by json. 
+- Panel: Flat surface with input and output components on it. See the interface description. This is both software and hardware. 
+- InterfaceMover: The robot/machine/engine moving an interface to a defined position. 
+- VR scene: The models and components that are visible in the VR glasses/environment. Does not need to have a physical representation
+- VR component: The components in the VR scene. There is a many-to-many mapping between VR components and hardware components. Also have dimensions 
+- Behaviour: Set of software (state machine, rules, generic code, ...) that defines how the VR scene reacts to input from the hardware components and the tracked movement of the user in VR
