@@ -13,7 +13,7 @@ Picture showing the Simulated Reality Haptic Platform for which the build file a
 
 ## Installation instruction:
 1. Include SteamVR from the Unity asset store.
-2. Include the OptiTrack Unity plugin, found here: https://optitrack.com/support/downloads/plugins.html .
+2. Include the OptiTrack Unity plugin, found here: https://optitrack.com/support/downloads/plugins.html
 3. Deploy the Arduino software on the Arduino's controlling the stepper motors and the Arduino handling the physical input.
 4. Open the Sample demo scene in the Demos subdirectory.
 5. Align the SteamVR and OptiTrack tracking.

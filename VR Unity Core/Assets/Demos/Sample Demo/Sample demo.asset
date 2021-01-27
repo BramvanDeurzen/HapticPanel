@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: Sample demo
   m_EditorClassIdentifier: 
   demoname: Sample demo
-  scenename: Demos/Sample demo/XFestival_PickandPlace_Scene
+  scenename: Demos/Sample demo/Sample demo Scene
   interfaceAsset: {fileID: 4900000, guid: 02fab780c4bc7c945a390dba7226961f, type: 3}
   IDMapping: {fileID: 11400000, guid: cbe39fbcdb667e742886e63f7ea3a536, type: 2}
