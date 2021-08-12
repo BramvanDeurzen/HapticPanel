@@ -1,4 +1,4 @@
-# Simulated Reality: An Open System to Render Haptic Interfaces in Virtual Reality for Manufacturing Industry
+# HapticPanel: An Open System to Render Haptic Interfaces in Virtual Reality for Manufacturing Industry
 
 ## Quick overview
 * The files can be found in the 'Platform files' directory.
@@ -6,7 +6,7 @@
 * The VR framework software can be found in the 'VR Unity core' directory.
 * The Arduino software and serial parser code can be found in the 'UnityHardwareBridge' directory.
 
-## Simulated Reality Haptic Platform:
+## HapticPanel Haptic Platform:
 ![Simulated Reality Haptic Platform](https://github.com/BramvanDeurzen/SimulatedReality/blob/master/Images/final_platform_result_compressed.jpg?raw=true)
 Picture showing the Simulated Reality Haptic Platform for which the build file and instructions are shared in this repository.
 
